@@ -492,7 +492,7 @@
       "idf": "",
       "netlist": "../../../../",
       "specctra_dsn": "",
-      "step": "Gnarboard.step",
+      "step": "8ch-mosfet.STEP",
       "vrml": "Gnarboard.wrl"
     },
     "page_layout_descr_file": ""

@@ -11,3 +11,11 @@ PCB Calculator: https://www.digikey.com/en/resources/conversion-calculators/conv
 20C rise
 
 = 6mm power traces
+
+11.3mm mosfet courtyard
+0.56mm gap
+
+new = 12mm spacing
+old = 19.141 spacing
+
+savings = 57.128mm!!!

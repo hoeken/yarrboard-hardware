@@ -1,28 +1,26 @@
-8ch MOSFET:
-  * move to 4 layer design signal / gnd / gnd / signal
+## 8ch MOSFET:
+  * add keepout
   * busbar:
-    * determine new hole spacing
+    * determine new hole spacing - 12mm
     * design new model/dxf
     * switch to M4 holes
     * extend the busbar a little bit to fit 3mm case wall + MEGA or MBRF fuses
     * update 3dp case for 8ch mosfet
 
-Brine-o-Matic 9000:
+## Brine-o-Matic 9000:
   * esp32-s3 module
   * 4 layer design signal / gnd / gnd / signal
   
 
-Input Board:
+## Input Board:
   * esp32-s3 module
   * 4 layer design signal / gnd / gnd / signal
   * best ADC chip available
   * figure out how to support the widest variety of inputs
     * tank senders + voltage dividers
 
-Electronics:
-
-Long Term Ideas:
-    * Relay board - DC or AC?
-    * Motor driver / H bridge?
-    * manual OTA upload
-    * learn about building components for node-red, maybe make a yarrboard toolkit
+### Long Term Ideas:
+  * Relay board - DC or AC?
+  * Motor driver / H bridge?
+  * manual OTA upload
+  * learn about building components for node-red, maybe make a yarrboard toolkit

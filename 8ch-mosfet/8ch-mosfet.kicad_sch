@@ -1450,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 40.64) (xy 43.18 40.64)
+			(xy 40.64 38.1) (xy 45.72 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1627,6 +1627,16 @@
 			(type default)
 		)
 		(uuid "3b510778-64a3-4cbd-a354-c3420c733b4c")
+	)
+	(wire
+		(pts
+			(xy 40.64 55.88) (xy 45.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c5576b1-8a16-4efc-9281-a86eeccdd628")
 	)
 	(wire
 		(pts
@@ -1827,6 +1837,16 @@
 			(type default)
 		)
 		(uuid "6a806130-b970-4a22-984a-df259c958c02")
+	)
+	(wire
+		(pts
+			(xy 40.64 40.64) (xy 45.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7df324-e76e-4b90-9718-299a11c0adc2")
 	)
 	(wire
 		(pts
@@ -2060,7 +2080,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 38.1) (xy 43.18 38.1)
+			(xy 40.64 35.56) (xy 45.72 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2470,6 +2490,28 @@
 			)
 		)
 	)
+	(global_label "FAN_MOSFET1"
+		(shape input)
+		(at 45.72 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c00f35a-067e-4e8a-b0bd-73bec68f953a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.5866 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FAN_PWM1"
 		(shape input)
 		(at 173.99 100.33 0)
@@ -2626,7 +2668,7 @@
 	)
 	(global_label "FAN_PWM1"
 		(shape input)
-		(at 43.18 38.1 0)
+		(at 45.72 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2636,7 +2678,7 @@
 		)
 		(uuid "b26b3da6-ffce-4615-b9f8-a106b399157d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0228 38.1 0)
+			(at 58.5628 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,6 +2710,28 @@
 			)
 		)
 	)
+	(global_label "FAN_MOSFET2"
+		(shape input)
+		(at 45.72 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7982a34-e800-4d01-afea-f5d926b2cd53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.5866 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FAN_PWM2"
 		(shape input)
 		(at 127 72.39 180)
@@ -2692,7 +2756,7 @@
 	)
 	(global_label "FAN_TACH1"
 		(shape input)
-		(at 43.18 40.64 0)
+		(at 45.72 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2702,7 +2766,7 @@
 		)
 		(uuid "db79295f-aef5-490f-8407-469ab633fe8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.5067 40.64 0)
+			(at 59.0467 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +3706,7 @@
 	)
 	(sheet
 		(at 27.94 48.26)
-		(size 12.7 7.62)
+		(size 12.7 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3662,7 +3726,7 @@
 			)
 		)
 		(property "Sheetfile" "pwm fan.kicad_sch"
-			(at 27.94 56.4646 0)
+			(at 27.94 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,6 +3754,16 @@
 				(justify right)
 			)
 			(uuid "36ed1984-ea0b-4f19-92cb-cd571932d323")
+		)
+		(pin "MOSFET" input
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1adc706b-5415-4bfe-8d5e-d0de71c84cbd")
 		)
 		(instances
 			(project "8ch-mosfet"
@@ -4122,8 +4196,8 @@
 		)
 	)
 	(sheet
-		(at 27.94 35.56)
-		(size 12.7 7.62)
+		(at 27.94 33.02)
+		(size 12.7 9.906)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4134,7 +4208,7 @@
 		)
 		(uuid "ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2")
 		(property "Sheetname" "PWM FAN"
-			(at 27.94 34.8484 0)
+			(at 27.94 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4217,7 @@
 			)
 		)
 		(property "Sheetfile" "pwm fan.kicad_sch"
-			(at 27.94 43.7646 0)
+			(at 27.94 43.5106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4227,7 @@
 			)
 		)
 		(pin "PWM" input
-			(at 40.64 38.1 0)
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4237,7 @@
 			(uuid "61cce3f7-8165-42e3-b76d-341aa9e4d5cf")
 		)
 		(pin "TACH" input
-			(at 40.64 40.64 0)
+			(at 40.64 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,6 +4245,16 @@
 				(justify right)
 			)
 			(uuid "633d8be0-c85c-42be-858b-7d06c415c982")
+		)
+		(pin "MOSFET" input
+			(at 40.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc8bda67-5935-4cf0-b02f-94618e47aa4e")
 		)
 		(instances
 			(project "8ch-mosfet"

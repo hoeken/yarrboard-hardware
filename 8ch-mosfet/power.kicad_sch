@@ -4115,7 +4115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "yarrboard:Busbar 1x9 .375in"
+		(property "Footprint" "yarrboard:Busbar Rev D"
 			(at 40.64 144.78 0)
 			(effects
 				(font
@@ -4413,7 +4413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "yarrboard:Busbar 1x9 .375in"
+		(property "Footprint" "yarrboard:Busbar Rev D"
 			(at 62.23 144.78 0)
 			(effects
 				(font

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.4,
-          "height": 3.6,
-          "width": 2.0
+          "drill": 3.2,
+          "height": 5.6,
+          "width": 5.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -670,7 +670,7 @@
     ],
     [
       "b87f80e1-ecbd-4ee0-be26-4b252158928b",
-      "ADC"
+      "CURRENT ADC0"
     ],
     [
       "0036d08f-39b5-4a29-8e4d-ea832b2cc879",
@@ -679,6 +679,54 @@
     [
       "e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef",
       "Power Supply"
+    ],
+    [
+      "2f0c11e1-5bb0-43ca-ade6-94594fdc3215",
+      "CURRENT ADC1"
+    ],
+    [
+      "36f5aed6-7470-4c11-8919-f61659614bbf",
+      "CHANNEL 8"
+    ],
+    [
+      "e6b1da1c-1e0d-4999-972a-bab9958566a7",
+      "CHANNEL 9"
+    ],
+    [
+      "b3ef497d-fe5b-4900-a420-430ad195a25a",
+      "CHANNEL 10"
+    ],
+    [
+      "984c2353-77c6-4bc6-ac37-ab70b9e29476",
+      "CHANNEL 11"
+    ],
+    [
+      "b7d804d7-e10b-40c8-a6a0-65b4ae1f95ab",
+      "SENDER INPUT 0"
+    ],
+    [
+      "96edcf10-ad2e-4b0c-9bcf-7ec233542517",
+      "SENDER INPUT 1"
+    ],
+    [
+      "f630e7bf-424c-48d0-b4f5-b992ebe5ac06",
+      "SENDER INPUT 2"
+    ],
+    [
+      "be792642-71a0-4d31-8160-e0873aa75416",
+      "SENDER INPUT 3"
+    ],
+    [
+      "bb9dea8b-8412-49bc-950d-dce57727bcd2",
+      "VOLTAGE ADC0"
+    ],
+    [
+      "a6260305-24e3-4714-b441-a7a157c17bd9",
+      "VOLTAGE ADC1"
+    ],
+    [
+      "efce81b0-0da6-4cc8-a856-27910d231a7d",
+      "VOLTAGE ADC2"
     ]
   ],
   "text_variables": {}

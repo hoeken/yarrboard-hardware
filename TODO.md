@@ -1,12 +1,3 @@
-## Load Driver
-  * double check INPUT circuit against VDO sender
-  * double check voltage measurement
-  * go over parts list
-  * rename board
-  * order parts
-  * order board
-  * update 3dp case
-
 ## Brine-o-Matic 9000:
   * esp32-s3 module
   * 4 layer design signal / gnd / gnd / signal

@@ -630,51 +630,47 @@
     ],
     [
       "0eec6767-666b-42c0-ba36-2a83c9caeade",
-      "CHANNEL 0"
-    ],
-    [
-      "ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7",
       "CHANNEL 1"
     ],
     [
-      "1e692482-a022-407a-8cb5-d9a3b23521a6",
+      "ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7",
       "CHANNEL 2"
     ],
     [
-      "5952e660-2bb6-45cf-b9ea-f7a7c2d0954e",
+      "1e692482-a022-407a-8cb5-d9a3b23521a6",
       "CHANNEL 3"
     ],
     [
-      "772d44f5-8758-48db-a140-72ed8e75e88c",
+      "5952e660-2bb6-45cf-b9ea-f7a7c2d0954e",
       "CHANNEL 4"
     ],
     [
-      "424e7b24-5644-46f2-85bb-1e459a343705",
+      "772d44f5-8758-48db-a140-72ed8e75e88c",
       "CHANNEL 5"
     ],
     [
-      "4c1df725-56ca-4be4-8107-a39054acbca4",
+      "424e7b24-5644-46f2-85bb-1e459a343705",
       "CHANNEL 6"
     ],
     [
-      "a8a81147-5613-4820-beb3-a7ca76d0db8e",
+      "4c1df725-56ca-4be4-8107-a39054acbca4",
       "CHANNEL 7"
     ],
     [
-      "ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2",
-      "PWM FAN"
+      "a8a81147-5613-4820-beb3-a7ca76d0db8e",
+      "CHANNEL 8"
     ],
     [
-      "02f6e629-b0e2-41e8-b2e4-f0e125a92a71",
+      "ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2",
       "PWM FAN1"
     ],
     [
-      "b87f80e1-ecbd-4ee0-be26-4b252158928b",
-      "CURRENT ADC0"
+      "02f6e629-b0e2-41e8-b2e4-f0e125a92a71",
+      "PWM FAN2"
     ],
     [
-      "0036d08f-39b5-4a29-8e4d-ea832b2cc879",
-      "Connectors"
+      "b87f80e1-ecbd-4ee0-be26-4b252158928b",
+      "CURRENT ADC1"
     ],
     [
       "e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef",
@@ -682,51 +678,51 @@
     ],
     [
       "2f0c11e1-5bb0-43ca-ade6-94594fdc3215",
-      "CURRENT ADC1"
+      "CURRENT ADC2"
     ],
     [
       "36f5aed6-7470-4c11-8919-f61659614bbf",
-      "CHANNEL 8"
-    ],
-    [
-      "e6b1da1c-1e0d-4999-972a-bab9958566a7",
       "CHANNEL 9"
     ],
     [
-      "b3ef497d-fe5b-4900-a420-430ad195a25a",
+      "e6b1da1c-1e0d-4999-972a-bab9958566a7",
       "CHANNEL 10"
     ],
     [
-      "984c2353-77c6-4bc6-ac37-ab70b9e29476",
+      "b3ef497d-fe5b-4900-a420-430ad195a25a",
       "CHANNEL 11"
     ],
     [
+      "984c2353-77c6-4bc6-ac37-ab70b9e29476",
+      "CHANNEL 12"
+    ],
+    [
       "b7d804d7-e10b-40c8-a6a0-65b4ae1f95ab",
-      "SENDER INPUT 0"
+      "INPUT 1"
     ],
     [
       "96edcf10-ad2e-4b0c-9bcf-7ec233542517",
-      "SENDER INPUT 1"
+      "INPUT 2"
     ],
     [
       "f630e7bf-424c-48d0-b4f5-b992ebe5ac06",
-      "SENDER INPUT 2"
+      "INPUT 3"
     ],
     [
       "be792642-71a0-4d31-8160-e0873aa75416",
-      "SENDER INPUT 3"
+      "INPUT 4"
     ],
     [
       "bb9dea8b-8412-49bc-950d-dce57727bcd2",
-      "VOLTAGE ADC0"
-    ],
-    [
-      "a6260305-24e3-4714-b441-a7a157c17bd9",
       "VOLTAGE ADC1"
     ],
     [
-      "efce81b0-0da6-4cc8-a856-27910d231a7d",
+      "a6260305-24e3-4714-b441-a7a157c17bd9",
       "VOLTAGE ADC2"
+    ],
+    [
+      "efce81b0-0da6-4cc8-a856-27910d231a7d",
+      "VOLTAGE ADC3"
     ]
   ],
   "text_variables": {}

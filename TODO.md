@@ -1,11 +1,11 @@
-## 8ch MOSFET:
-  * add keepout
-  * busbar:
-    * determine new hole spacing - 12mm
-    * design new model/dxf
-    * switch to M4 holes
-    * extend the busbar a little bit to fit 3mm case wall + MEGA or MBRF fuses
-    * update 3dp case for 8ch mosfet
+## Load Driver
+  * double check INPUT circuit against VDO sender
+  * double check voltage measurement
+  * go over parts list
+  * rename board
+  * order parts
+  * order board
+  * update 3dp case
 
 ## Brine-o-Matic 9000:
   * esp32-s3 module

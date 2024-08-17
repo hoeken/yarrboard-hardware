@@ -122,4 +122,15 @@
 		(remove_unused_layers no)
 		(uuid "c11feeb6-03a5-4d02-a07c-80f03877bccb")
 	)
+	(model "/Users/hoeken/github/yarrboard-hardware/models/T44001.step"
+		(offset
+			(xyz 0 0 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

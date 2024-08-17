@@ -1116,4 +1116,15 @@
 			"f55c4b5c-cb24-4b9f-8edc-d83fb8e14520" "fe73396f-680d-481a-a341-b74ee5184e79"
 		)
 	)
+	(model "${KIPRJMOD}/case design/busbar.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "F1"
-		(at -11.94 -2.54 0)
+		(at -15 1.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "903186e1-23e2-475e-b96f-e58a08d3e225")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "25A"
-		(at 7.11 -2.54 0)
+		(at 15 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5f1464b6-a5e2-41d0-afe1-c276fe3e8b30")
@@ -77,8 +77,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -14.48 -3.81)
-		(end 14.73 3.81)
+		(start -14.3 -2.25)
+		(end 14.3 2.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -88,7 +88,7 @@
 		(uuid "170d5453-e53f-4a49-b774-9543a0a71740")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.51 2.54 0)
+		(at -9 -3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6f44c30e-6a3a-42ad-b269-25f874a02db6")
@@ -101,7 +101,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at -11.68 0)
-		(size 3.5 3.5)
+		(size 3.6 3.6)
 		(drill 2.54)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -109,7 +109,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at -6.6 0)
-		(size 3.5 3.5)
+		(size 3.6 3.6)
 		(drill 2.54)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -117,7 +117,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at -2.54 0)
-		(size 3.5 3.5)
+		(size 3.6 3.6)
 		(drill 2.54)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -125,7 +125,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 2.54 0)
-		(size 3.5 3.5)
+		(size 3.6 3.6)
 		(drill 2.54)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -133,7 +133,7 @@
 	)
 	(pad "3" thru_hole circle
 		(at 6.6 0)
-		(size 3.5 3.5)
+		(size 3.6 3.6)
 		(drill 2.54)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -141,7 +141,7 @@
 	)
 	(pad "3" thru_hole circle
 		(at 11.68 0)
-		(size 3.5 3.5)
+		(size 3.6 3.6)
 		(drill 2.54)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -149,7 +149,18 @@
 	)
 	(model "/Users/hoeken/github/yarrboard-hardware/models/3A ATM FUSE, PURPLE.STEP"
 		(offset
-			(xyz -5 0 17.5)
+			(xyz -4.3 0 16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "/Users/hoeken/Downloads/3522_3/3522-3.step"
+		(offset
+			(xyz -2.4 -0.5 2.8)
 		)
 		(scale
 			(xyz 1 1 1)

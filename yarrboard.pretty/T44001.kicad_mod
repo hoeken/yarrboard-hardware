@@ -75,7 +75,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "1cd8a9d7-d519-4b96-915c-1d0bb011e0f0")
 	)
 	(fp_text user "${REFERENCE}"

@@ -334,15 +334,15 @@
 		(roundrect_rratio 0.25)
 		(uuid "20d8ef99-c861-486e-98d0-cdb209e06b40")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Infineon_PG-TDSON-8_6.15x5.15mm.wrl"
+	(model "/Users/hoeken/github/yarrboard-hardware/models/IAUC120N06S5N017ATMA1 PACKAGE V1.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -2.7 2.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 90)
 		)
 	)
 )

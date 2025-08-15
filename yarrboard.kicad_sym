@@ -2676,7 +2676,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 24.13 0)
 				(length 2.54)
 				(name "GP11"
@@ -2694,7 +2694,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 21.59 0)
 				(length 2.54)
 				(name "GP12"
@@ -2712,7 +2712,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -13.97 19.05 0)
 				(length 2.54)
 				(name "GND"
@@ -2730,7 +2730,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 16.51 0)
 				(length 2.54)
 				(name "GP13"
@@ -2748,7 +2748,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 13.97 0)
 				(length 2.54)
 				(name "GP14"
@@ -2766,7 +2766,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 11.43 0)
 				(length 2.54)
 				(name "GP15"
@@ -2784,7 +2784,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 8.89 0)
 				(length 2.54)
 				(name "GP16"
@@ -2802,7 +2802,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -13.97 6.35 0)
 				(length 2.54)
 				(name "GND"
@@ -2820,7 +2820,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 3.81 0)
 				(length 2.54)
 				(name "GP17"
@@ -2838,7 +2838,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 1.27 0)
 				(length 2.54)
 				(name "GP18"
@@ -2856,7 +2856,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 -1.27 0)
 				(length 2.54)
 				(name "GP33"
@@ -2874,7 +2874,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 -3.81 0)
 				(length 2.54)
 				(name "GP34"
@@ -2892,7 +2892,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -13.97 -6.35 0)
 				(length 2.54)
 				(name "GND"
@@ -2910,7 +2910,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 -8.89 0)
 				(length 2.54)
 				(name "GP35"
@@ -2928,7 +2928,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 -11.43 0)
 				(length 2.54)
 				(name "GP36"
@@ -2946,7 +2946,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 -13.97 0)
 				(length 2.54)
 				(name "GP37"
@@ -2964,7 +2964,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 -16.51 0)
 				(length 2.54)
 				(name "GP38"
@@ -2982,7 +2982,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -13.97 -19.05 0)
 				(length 2.54)
 				(name "GND"
@@ -3000,7 +3000,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 -21.59 0)
 				(length 2.54)
 				(name "GP39"
@@ -3018,7 +3018,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -13.97 -24.13 0)
 				(length 2.54)
 				(name "GP40"
@@ -3036,7 +3036,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 13.97 24.13 180)
 				(length 2.54)
 				(name "VBUS"
@@ -3054,7 +3054,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 13.97 21.59 180)
 				(length 2.54)
 				(name "VSYS"
@@ -3072,7 +3072,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 13.97 19.05 180)
 				(length 2.54)
 				(name "GND"
@@ -3090,7 +3090,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 13.97 16.51 180)
 				(length 2.54)
 				(name "3V3_EN"
@@ -3108,7 +3108,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 13.97 13.97 180)
 				(length 2.54)
 				(name "3V3(OUT)"
@@ -3126,7 +3126,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 13.97 11.43 180)
 				(length 2.54)
 				(name "GP10"
@@ -3144,7 +3144,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 13.97 8.89 180)
 				(length 2.54)
 				(name "GP9"
@@ -3162,7 +3162,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 13.97 6.35 180)
 				(length 2.54)
 				(name "GND"
@@ -3180,7 +3180,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 13.97 3.81 180)
 				(length 2.54)
 				(name "GP8"
@@ -3198,7 +3198,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 13.97 1.27 180)
 				(length 2.54)
 				(name "GP7"
@@ -3216,7 +3216,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 13.97 -1.27 180)
 				(length 2.54)
 				(name "RUN"
@@ -3234,7 +3234,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 13.97 -3.81 180)
 				(length 2.54)
 				(name "GP6"
@@ -3252,7 +3252,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 13.97 -6.35 180)
 				(length 2.54)
 				(name "GND"
@@ -3270,7 +3270,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 13.97 -8.89 180)
 				(length 2.54)
 				(name "GP5"
@@ -3288,7 +3288,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 13.97 -11.43 180)
 				(length 2.54)
 				(name "GP4"
@@ -3306,7 +3306,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 13.97 -13.97 180)
 				(length 2.54)
 				(name "GP2"
@@ -3324,7 +3324,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 13.97 -16.51 180)
 				(length 2.54)
 				(name "GP1"
@@ -3342,7 +3342,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 13.97 -19.05 180)
 				(length 2.54)
 				(name "GND"
@@ -3360,7 +3360,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 13.97 -21.59 180)
 				(length 2.54)
 				(name "GP41"
@@ -3378,7 +3378,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 13.97 -24.13 180)
 				(length 2.54)
 				(name "GP42"

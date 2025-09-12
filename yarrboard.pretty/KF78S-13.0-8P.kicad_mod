@@ -1,7 +1,7 @@
 (footprint "KF78S-13.0-8P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -5 -3 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "fb3d710b-e751-4509-8f56-5f6559c5f9f7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e6b16d34-70fc-4779-bd1b-27eeba49a3c4")
 		(effects
 			(font
 				(size 1 1)
@@ -124,7 +111,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "1c58efb2-9b16-44cd-8373-d2aeb7a16be3")
 	)
@@ -135,7 +122,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "6c700ebf-214e-4838-9d55-e16f1763f747")
 	)
@@ -214,5 +201,17 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "88a5ef14-91a3-440f-ba8b-18c451b7a810")
+	)
+	(embedded_fonts no)
+	(model "/Users/hoeken/github/yarrboard-hardware/models/KF78S-13.0-8P.step"
+		(offset
+			(xyz 45.5 4.55 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
 	)
 )

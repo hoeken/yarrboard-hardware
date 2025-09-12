@@ -1,7 +1,7 @@
 (footprint "Buzzer_FUET_9.6x9.6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.cui.com/product/resource/cpt-9019s-smt.pdf")
 	(tags "buzzer piezo")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0382f5c9-7c4a-470b-b5c0-63bfc6831872")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -267,16 +254,17 @@
 	(pad "1" smd rect
 		(at 0 -5 270)
 		(size 1.8 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d39b202e-62f4-44d8-b5ac-d283e1688a6a")
 	)
 	(pad "2" smd rect
 		(at 0 5 270)
 		(size 1.8 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ca72a435-1061-4f95-815f-57e78f8b2626")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_CUI_CPT-9019S-SMT.wrl"
+	(embedded_fonts no)
+	(model "/Users/hoeken/github/yarrboard-hardware/models/Fuet 9.6x9.6.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -284,7 +272,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

@@ -1,0 +1,149 @@
+(footprint "Standoff-3mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.937 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "460d7199-b209-4460-a234-1e1d11403d09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Standoff-3mm"
+		(at 0 3.937 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1794858-54fd-4da3-af0c-86f79abbeaba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23c90ef0-2108-4975-968c-1439fe72955a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b229238b-df6d-4b49-a38c-97ccd1c45254")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -2.419445 -0.967778)
+		(mid -1.842594 -1.842594)
+		(end -0.967778 -2.419445)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "a0ae8728-3d12-4c3f-9f47-fdc2e77e74f2")
+	)
+	(fp_arc
+		(start -0.967784 2.419451)
+		(mid -1.8426 1.8426)
+		(end -2.419451 0.967784)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "40c377d3-49ee-415d-b978-e09657dcd9b9")
+	)
+	(fp_arc
+		(start 0.967784 -2.419451)
+		(mid 1.8426 -1.8426)
+		(end 2.419451 -0.967784)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "4e5e9443-5288-41bf-a705-593b94a2c497")
+	)
+	(fp_arc
+		(start 2.419451 0.967784)
+		(mid 1.8426 1.8426)
+		(end 0.967784 2.419451)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "7e0d6ae6-321e-405c-81bd-0af6fa75de96")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.032 -2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "148d4298-cb6d-43f9-8046-321b7a61a261")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.461 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5fa6cc68-d5a6-40f3-ad44-c26868f1e3e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4.22 4.22)
+		(drill 4.22)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2cee7c02-6c2a-402b-b9f0-7188d6ecb095")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "231893d0-4844-4323-9056-7b5c8e9d744d")
+	)
+	(embedded_fonts no)
+	(model "/Users/hoeken/github/yarrboard-hardware/models/SMT Spacer-3x10mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -223,4 +223,26 @@
 		(uuid "dbbb38f7-c8b9-4d13-9535-084a440e3ade")
 	)
 	(embedded_fonts no)
+	(model "/Users/hoeken/github/yarrboard-hardware/models/XFCN XF-508P-A-B v1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/hoeken/github/yarrboard-hardware/models/3A ATM FUSE, PURPLE.STEP"
+		(offset
+			(xyz 0 0 15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

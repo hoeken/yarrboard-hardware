@@ -367,7 +367,31 @@
 			)
 			(polyline
 				(pts
+					(xy 0 2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 0 -2.54) (xy 0 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -398,42 +422,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 1.27 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -1.27 270)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -8.89 90)
 				(length 1.27)
 				(name "~"
@@ -444,6 +432,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6151,7 +6157,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at 15.24 12.7 180)
 				(length 2.54)
 				(name "~{IRQ}"
@@ -6169,7 +6175,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 15.24 10.16 180)
 				(length 2.54)
 				(name "MCLK"

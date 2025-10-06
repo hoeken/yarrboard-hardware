@@ -1,0 +1,329 @@
+(footprint "Frothfet Busbar Positive Rev E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1a1bde19-eb65-4397-ad03-86b6a058f96b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Frothfet Busbar Positive Rev E"
+		(at 3 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c2aaeeb-0db4-4ec2-8b2a-4f9071875535")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d978c8d3-b46b-453c-9137-162362022539")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2058548-9339-4cfd-943b-44264a3e9d29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -6 -3.5)
+		(end -6 3.499999)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "220b6794-d51e-47a7-ad6c-fa737caa4cc1")
+	)
+	(fp_line
+		(start -1.000001 -8.5)
+		(end 149 -8.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a5934a77-82a3-4018-87b6-33c3ecef6156")
+	)
+	(fp_line
+		(start 149 8.5)
+		(end -1 8.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1defadf9-6dea-46cd-a96f-26140e2b230b")
+	)
+	(fp_line
+		(start 154 -3.5)
+		(end 154 3.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "187b8a12-1627-4232-a5c9-9e538dccdf4f")
+	)
+	(fp_arc
+		(start -6 -3.5)
+		(mid -4.535534 -7.035534)
+		(end -1.000001 -8.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d3b438fa-94f4-4753-b9cc-61217cdb6a36")
+	)
+	(fp_arc
+		(start -1 8.5)
+		(mid -4.535534 7.035534)
+		(end -6 3.499999)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7162ac6d-a09d-4a00-9040-b8089ab9f88b")
+	)
+	(fp_arc
+		(start 149 -8.5)
+		(mid 152.535534 -7.035534)
+		(end 154 -3.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "24bbbf1e-13be-4099-a836-b4373d39f3a2")
+	)
+	(fp_arc
+		(start 154 3.5)
+		(mid 152.535534 7.035534)
+		(end 149 8.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "fdf50f72-1dd4-436b-b14e-6b8f1e274ba9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.65 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "f53dafde-145a-470e-ac60-13bc2f6da16f")
+	)
+	(fp_circle
+		(center 13 0)
+		(end 14.65 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "76f56364-dfde-418f-837e-db05df62a366")
+	)
+	(fp_circle
+		(center 26 0)
+		(end 27.65 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "b2ef93bb-6a9c-4922-bac5-d0e607759baa")
+	)
+	(fp_circle
+		(center 39 0)
+		(end 40.65 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "50c76898-7a91-43f1-bbbe-e654e97a22c6")
+	)
+	(fp_circle
+		(center 52 0)
+		(end 53.65 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "29806eea-862a-4058-8af6-f6469f0163d2")
+	)
+	(fp_circle
+		(center 65 0)
+		(end 66.65 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "c19ea5f8-e7b7-4a98-a075-567880d3961d")
+	)
+	(fp_circle
+		(center 78 0)
+		(end 79.65 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "b3fe8577-0e3d-4325-a8ba-9b8d7cd253a8")
+	)
+	(fp_circle
+		(center 91 0)
+		(end 92.65 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "39b76c7d-c6c9-4d07-b181-e24b46824319")
+	)
+	(fp_circle
+		(center 142 0)
+		(end 145.4 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "6614feef-1a91-4d39-a4d2-d27fd08ea802")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 9 9)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3fdd9069-b027-4917-9517-abd8350dec93")
+	)
+	(pad "2" thru_hole circle
+		(at 13 0)
+		(size 9 9)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25bb5347-c037-4721-a1c1-a4e94e2e4bc8")
+	)
+	(pad "3" thru_hole circle
+		(at 26 0)
+		(size 9 9)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "00314b3b-0548-4da3-aa91-c81454a76136")
+	)
+	(pad "4" thru_hole circle
+		(at 39 0)
+		(size 9 9)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec9923b5-1df7-4b68-bc10-9e5f91c9ed3c")
+	)
+	(pad "5" thru_hole circle
+		(at 52 0)
+		(size 9 9)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "99467b1b-d9cf-4c1f-aa7e-f546e4fa959f")
+	)
+	(pad "6" thru_hole circle
+		(at 65 0)
+		(size 9 9)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa98bb99-bf25-4cd1-a032-d2eecc7a2c9d")
+	)
+	(pad "7" thru_hole circle
+		(at 78 0)
+		(size 9 9)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d6788ba-2eb5-4635-8c8c-2ecdc4e8387e")
+	)
+	(pad "8" thru_hole circle
+		(at 91 0)
+		(size 9 9)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6018d453-dd9c-41f0-a237-fb282e2eccc3")
+	)
+	(group ""
+		(uuid "c55b551b-1ec6-455c-962e-66f9a3d40f3a")
+		(members "187b8a12-1627-4232-a5c9-9e538dccdf4f" "1defadf9-6dea-46cd-a96f-26140e2b230b"
+			"220b6794-d51e-47a7-ad6c-fa737caa4cc1" "24bbbf1e-13be-4099-a836-b4373d39f3a2"
+			"29806eea-862a-4058-8af6-f6469f0163d2" "39b76c7d-c6c9-4d07-b181-e24b46824319"
+			"50c76898-7a91-43f1-bbbe-e654e97a22c6" "6614feef-1a91-4d39-a4d2-d27fd08ea802"
+			"7162ac6d-a09d-4a00-9040-b8089ab9f88b" "76f56364-dfde-418f-837e-db05df62a366"
+			"a5934a77-82a3-4018-87b6-33c3ecef6156" "b2ef93bb-6a9c-4922-bac5-d0e607759baa"
+			"b3fe8577-0e3d-4325-a8ba-9b8d7cd253a8" "c19ea5f8-e7b7-4a98-a075-567880d3961d"
+			"d3b438fa-94f4-4753-b9cc-61217cdb6a36" "f53dafde-145a-470e-ac60-13bc2f6da16f"
+			"fdf50f72-1dd4-436b-b14e-6b8f1e274ba9"
+		)
+	)
+	(embedded_fonts no)
+	(model "/Users/hoeken/github/yarrboard-hardware/models/busbar-positive-rev-e.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

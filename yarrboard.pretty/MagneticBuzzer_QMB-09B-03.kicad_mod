@@ -1,0 +1,151 @@
+(footprint "MagneticBuzzer_QMB-09B-03"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Buzzer Magnetic 9mm AT-0927-TT-6-R, http://www.puiaudio.com/pdf/AT-0927-TT-6-R.pdf")
+	(tags "Buzzer Magnetic 9mm AT-0927-TT-6-R")
+	(property "Reference" "REF**"
+		(at 0 5.5 0)
+		(layer "F.SilkS")
+		(uuid "40d702f6-5597-4948-b33b-8710b1f8e46a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MagneticBuzzer_QMB-09B-03"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "246fd5f8-a91d-46ae-8220-4a852d4b6a34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3832053-dd40-434e-9a0c-eccc2e29d183")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0df93bf-2019-4fc5-9310-b4449a282473")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.62 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "010fe06f-2d11-4fff-a566-36d6e4755a43")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "afad55de-53d4-4fd6-9644-83c31e5f7bbb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e6b4474a-b2bf-4757-a659-7d7b8630aa69")
+	)
+	(fp_text user "+"
+		(at -3.5 -0.1 0)
+		(layer "F.SilkS")
+		(uuid "212d1955-2082-4c05-b049-ad49177f3356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -3.5 -0.1 0)
+		(layer "F.Fab")
+		(uuid "94da2243-9eaf-4ca8-9f21-6f7b885b011b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "af2ff2c5-19d6-4d4f-a3f2-c5441ab704db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de888422-e88e-48db-8802-aace4ed2f2ac")
+	)
+	(pad "2" thru_hole circle
+		(at 2 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f89cd3a3-5feb-4da0-9736-234a66c1a7fd")
+	)
+	(embedded_fonts no)
+	(model "/Users/hoeken/github/yarrboard-hardware/models/Huaneng QMB-09B-03.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

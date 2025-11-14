@@ -1,0 +1,150 @@
+(footprint "SMTSO30XXX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b9cd1507-cae9-48c8-a0a3-11e9410902cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMTSO30XXX"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4c1b28f0-6ff4-451e-aa47-7119943b29db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5165ac08-510e-47fd-9b12-0a781e16cfc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e76087b-f231-45f2-84cd-22a7ff4c4692")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -2.500001 -0.700001)
+		(mid -1.85623 -1.815052)
+		(end -0.755899 -2.48367)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "11a2e4c3-059b-4a33-acfe-f4db0d5ac557")
+	)
+	(fp_arc
+		(start -0.700002 2.5)
+		(mid -1.815053 1.856229)
+		(end -2.483671 0.755898)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "3300e26f-e995-4111-8b7e-c73e4e5375e0")
+	)
+	(fp_arc
+		(start 0.7 -2.5)
+		(mid 1.815051 -1.856229)
+		(end 2.483669 -0.755898)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "8bd24841-35f3-4e2f-82bb-423d6942d6d0")
+	)
+	(fp_arc
+		(start 2.499998 0.699998)
+		(mid 1.856227 1.815049)
+		(end 0.755896 2.483667)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "0d52a232-bf70-4f9f-9851-51bbb728ba0d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.3 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0ded400c-ca98-4ee8-903f-1a12987b11f2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "70bcf1d6-8f4e-4256-b9b4-94e2201a790a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4.22 4.22)
+		(drill 4.22)
+		(layers "F&B.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "c06a86bb-5f97-4323-b867-7cfb763bf19a")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f281995b-4aee-45e4-b4f5-177ccdec0079")
+	)
+	(embedded_fonts no)
+	(model "/Users/hoeken/github/yarrboard-hardware/models/Sinhoo SMTSO3080CTJ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

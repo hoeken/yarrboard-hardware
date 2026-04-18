@@ -100,7 +100,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/Users/hoeken/github/yarrboard-hardware/models/ATC Fuse.step"
+	(model "/Users/hoeken/github/yarrboard-hardware/models/20A ATM FUSE, YELLOW.step"
 		(offset
 			(xyz 0 0 14)
 		)
